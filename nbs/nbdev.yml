@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "dev_docs"
+  site-url: "https://sharflow.github.io/dev_docs"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/sharflow/dev_docs"
