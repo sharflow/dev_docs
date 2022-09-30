@@ -20,3 +20,43 @@ print("Hello World")
 ```
 
     Hello World
+
+``` python
+def simple_function():
+    print("such a simple function")
+```
+
+``` python
+#export
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def perimeter(self):
+        return 2 * self.length + 2 * self.width
+
+# Here we declare that the Square class inherits from the Rectangle class
+class Square(Rectangle):
+    def __init__(self, length):
+        super().__init__(length, length)
+```
+
+``` python
+Sa = Square(5)
+Sb = Square(8)
+```
+
+``` python
+from fastcore.test import *
+```
+
+A set of tests !
+
+``` python
+test_eq_type(25, Sa.area())
+test_eq_type(64, Sb.area())
+```
