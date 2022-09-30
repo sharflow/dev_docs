@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "dev_docs",
+    "section": "",
+    "text": "A simple documentation with code samples"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "dev_docs",
+    "section": "Install",
+    "text": "Install\npip install dev_docs"
+  },
+  {
+    "objectID": "index.html#barebones",
+    "href": "index.html#barebones",
+    "title": "dev_docs",
+    "section": "Barebones",
+    "text": "Barebones\nsimple layers of documentation\n\nprint(\"Hello World\")\n\nHello World\n\n\n\ndef simple_function():\n    print(\"such a simple function\")\n\n\n#export\nclass Rectangle:\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n\n    def area(self):\n        return self.length * self.width\n\n    def perimeter(self):\n        return 2 * self.length + 2 * self.width\n\n# Here we declare that the Square class inherits from the Rectangle class\nclass Square(Rectangle):\n    def __init__(self, length):\n        super().__init__(length, length)\n\n\nSa = Square(5)\nSb = Square(8)\n\n\nfrom fastcore.test import *\n\nA set of tests !\n\ntest_eq_type(25, Sa.area())\ntest_eq_type(64, Sb.area())"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  }
+]
